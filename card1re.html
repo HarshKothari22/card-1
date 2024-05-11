@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card1re</title>
+    <style>
+.custom-container{
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+}
+.box{
+    width: 30%;
+    background-color: #333333;
+    border-radius: 8px;
+    overflow: hidden;
+   
+}
+.box .img-box{
+    width: 100%;
+    height: 150px;
+}
+.box .img-box img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+}
+.box .content-box h2{
+    color: #ffffff;
+    text-align: center;
+}
+.box .content-box h1{
+    color: green;
+    text-align: center;
+}
+.box .content-box p{
+    color: #ffffff;
+    text-align: center;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.box .img-box:hover{
+    transform: scale(1.3);
+}
+
+    </style>
+</head>
+<body>
+<div class="custom-container">
+        <div class="box">
+            <div class="img-box">
+                <img src="images/mob.jpg" alt="MOBILE-PHONE">
+            </div>
+            <div class="content-box">
+                <h2>MOBILE PHONE</h2>
+                <h1>$199.99</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    <div class="box">
+        <div class="img-box">
+        <img src="images/technology.jpg" alt="LAPTOP">
+    </div>
+    <div class="content-box">
+        <h2>LAPTOP</h2>
+        <h1>$599.99</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+
+<div class="box">
+    <div class="img-box">
+        <img src="images/hp.png" alt="HEADPHONE">
+    </div>
+    <div class="content-box">
+        <h2>HEADPHONE</h2>
+        <h1>$29.99</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
